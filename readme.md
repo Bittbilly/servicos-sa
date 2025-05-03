@@ -14,4 +14,7 @@ mudar para a branch `feacture/inicio-projeto`
 ```shell
 git checkout -b feacture/inicio-projeto
 ```
-teste
+atualizar branch com as últimas mudanças
+```shell
+git pull origin feacture/inicio-projeto
+```
