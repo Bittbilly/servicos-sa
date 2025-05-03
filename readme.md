@@ -4,4 +4,4 @@ iniciar git na pasta
 ```shell
 git init
 ```
-
+vincular github
