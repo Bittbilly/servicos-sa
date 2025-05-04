@@ -17,6 +17,7 @@
             height: 100vh;
             padding: 20px;
             box-sizing: border-box;
+            
         }
         .sidebar h2 {
             margin-top: 0;
@@ -31,6 +32,12 @@
         .sidebar ul li a {
             color: white;
             text-decoration: none;
+
+        }
+        .content a {
+            text-decoration: none;
+            color: #000
+            ;
         }
         .content {
             flex: 1;
@@ -58,6 +65,7 @@
             <li><a href="#">Menu Principal</a></li>
             <li><a href="#">Pessoas</a></li>
             <li><a href="#">Empresas</a></li>
+            <li><a href="../pagina-cadastro-ep/cadastroep.html">Cadastrar</a></li>
         </ul>
     </div>
     <div class="content">
@@ -71,10 +79,12 @@
                 <h3>Total de Empresas</h3>
                 <p>567</p>
             </div>
-            <div class="card">
-                <h3>Novos Cadastros</h3>
-                <p>89</p>
-            </div>
+            <a href="../pagina-cadastro-ep/cadastroep.html">
+                <div class="card">
+                    <h3>Novos Cadastros</h3>
+                    <p>89</p>
+                </div>
+            </a>
         </div>
     </div>
 </body>
